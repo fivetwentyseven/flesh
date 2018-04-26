@@ -5,7 +5,7 @@ import sys
 def main():
     if len(sys.argv[1:]) != 5:
         print "Usage: ./proxy.py <localhost> <localport> <remotehost> <remoteport> <receive_first>"
-        print "Example: ./proxy.py 127.0.0.1 9000 10.12.122.1 9999 True"
+        print "Example: ./proxy.py 127.0.0.1 9000 10.12.122.1 9999 True" #88f416bd2f89031399cfabedbb74c96b62df2f24e611a8398578b73befb56254
         sys.exit()
 
     local_host = sys.argv[1]
